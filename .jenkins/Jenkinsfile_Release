@@ -1,0 +1,10 @@
+@Library('shared-library') _
+
+def properties = {
+    buildImage: false,
+    toBranch: main,
+    fromBranch: staging,
+}
+
+MergeRelease(properties)
+
