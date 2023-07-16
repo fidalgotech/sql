@@ -1,4 +1,4 @@
-package sql
+package io.github.fidalgotech
 
 import java.time.Duration
 

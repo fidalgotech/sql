@@ -1,4 +1,4 @@
-package sql.flyway
+package io.github.fidalgotech.flyway
 
 import org.flywaydb.core.Flyway
 import org.flywaydb.core.api.FlywayException
