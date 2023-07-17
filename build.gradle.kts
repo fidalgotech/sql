@@ -20,3 +20,7 @@ testing {
         }
     }
 }
+
+kotlin {
+    jvmToolchain(17)
+}
