@@ -11,7 +11,6 @@ import io.github.fidalgotech.JdbcConfig
 import java.time.Duration.ofSeconds
 import javax.sql.DataSource
 
-
 class AgroalDatasourceFactory: DatasourceFactory {
     override fun create(jdbcConfig: JdbcConfig): DataSource {
         val configuration = AgroalDataSourceConfigurationSupplier()
