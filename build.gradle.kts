@@ -25,3 +25,13 @@ testing {
 kotlin {
     jvmToolchain(17)
 }
+
+publishing {
+    publications {
+        publications {
+            create<MavenPublication>("maven") {
+                from(components["java"])
+            }
+        }
+    }
+}
