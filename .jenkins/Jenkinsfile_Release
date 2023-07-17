@@ -2,8 +2,8 @@
 
 def properties = [
     buildImage: false,
-    toBranch: main,
-    fromBranch: staging,
+    toBranch: "main",
+    fromBranch: "staging",
 ]
 
 call MergeRelease(properties)
