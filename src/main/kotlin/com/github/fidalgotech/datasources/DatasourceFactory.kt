@@ -1,6 +1,6 @@
-package io.github.fidalgotech.datasources
+package com.github.fidalgotech.datasources
 
-import io.github.fidalgotech.JdbcConfig
+import com.github.fidalgotech.JdbcConfig
 import javax.sql.DataSource
 
 interface DatasourceFactory {

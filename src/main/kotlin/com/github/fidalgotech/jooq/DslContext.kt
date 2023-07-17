@@ -1,4 +1,4 @@
-package io.github.fidalgotech.jooq
+package com.github.fidalgotech.jooq
 
 import org.jooq.DSLContext
 import org.jooq.SQLDialect

@@ -1,4 +1,4 @@
-package io.github.fidalgotech.flyway
+package com.github.fidalgotech.flyway
 
 import org.flywaydb.core.api.Location
 import org.flywaydb.core.api.ResourceProvider

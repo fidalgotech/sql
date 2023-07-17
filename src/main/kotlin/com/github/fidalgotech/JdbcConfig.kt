@@ -1,4 +1,4 @@
-package io.github.fidalgotech
+package com.github.fidalgotech
 
 import java.time.Duration
 

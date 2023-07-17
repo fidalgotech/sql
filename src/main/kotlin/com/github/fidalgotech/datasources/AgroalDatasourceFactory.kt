@@ -1,4 +1,4 @@
-package io.github.fidalgotech.datasources
+package com.github.fidalgotech.datasources
 
 import io.agroal.api.AgroalDataSource
 import io.agroal.api.configuration.AgroalConnectionFactoryConfiguration.TransactionIsolation.SERIALIZABLE
@@ -7,7 +7,7 @@ import io.agroal.api.configuration.AgroalDataSourceConfiguration.DataSourceImple
 import io.agroal.api.configuration.supplier.AgroalDataSourceConfigurationSupplier
 import io.agroal.api.security.NamePrincipal
 import io.agroal.api.security.SimplePassword
-import io.github.fidalgotech.JdbcConfig
+import com.github.fidalgotech.JdbcConfig
 import java.time.Duration.ofSeconds
 import javax.sql.DataSource
 
