@@ -16,7 +16,7 @@ class FlywayMigrate {
 
         fun migrate(dataSource: DataSource?, testMode: Boolean) {
             val fluentConfiguration = Flyway.configure()
-            fluentConfiguration.loggers("slf4j2")
+            fluentConfiguration.loggers("ch.qos.logback.classic.Logger")
             if (testMode) {
                 if (System.getProperty("testData", "true") == "true") {
                     fluentConfiguration.locations("db/migration", "db/test")
