@@ -7,3 +7,4 @@ def properties = [
 ]
 
 call MergeRelease(properties)
+
