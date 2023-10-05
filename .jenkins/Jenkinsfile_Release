@@ -6,5 +6,4 @@ def properties = [
     fromBranch: "staging",
 ]
 
-call MergeRelease(properties)
-
+MergeRelease(properties)
