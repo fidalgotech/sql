@@ -4,9 +4,9 @@ rootProject.name = "sql"
 dependencyResolutionManagement {
     versionCatalogs {
         create("libs") {
-            library("jooq", "org.jooq:jooq:3.18.5")
+            library("jooq", "org.jooq:jooq:3.18.7")
             library("agroal", "io.agroal:agroal-pool:2.2")
-            library("flyway", "org.flywaydb:flyway-core:9.20.0")
+            library("flyway", "org.flywaydb:flyway-core:10.0.1")
         }
 
         create("testLibs") {

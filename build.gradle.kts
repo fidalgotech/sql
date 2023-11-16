@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.8.20"
+    kotlin("jvm") version "1.9.10"
     `java-library`
     `maven-publish`
 }
@@ -9,15 +9,15 @@ repositories {
 }
 
 dependencies {
-    api(libs.jooq)
-    api(libs.agroal)
-    api(libs.flyway)
+    implementation(libs.jooq)
+    implementation(libs.agroal)
+    implementation(libs.flyway)
 }
 
 testing {
     suites {
         val test by getting(JvmTestSuite::class) {
-            useKotlinTest("1.8.20")
+            useKotlinTest("1.9.10")
         }
     }
 }
